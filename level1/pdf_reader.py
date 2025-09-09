@@ -8,7 +8,7 @@ from google.genai import types
 # Os tools
 import os
 from dotenv import load_dotenv
-load_dotenv()
+load_dotenv("../.env")
 
 
 # Extracting contents of the PDF
