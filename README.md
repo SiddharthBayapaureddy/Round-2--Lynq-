@@ -13,7 +13,7 @@ sample input: "Tell me about Elephants" , "What is a comet?" , etc
 ### ui_interface.py: *Frontend Interface*
 #### A simple interface to upload PDF files and perform pre-defined actions on them.
 
-### To run, type in the following command in the terminal of level1 directory
+#### To run, type in the following command in the terminal of level1 directory
 #### *streamlit run ui_interface.py*
 
 #### It should open a localhost live session that can be accessed from a default browser by ctrl clicking the address mentioned in terminal. Test the features available.
@@ -29,13 +29,13 @@ sample input: "Tell me about Elephants" , "What is a comet?" , etc
 ### client_agent.py : 
 #### It calls the MCP server tool i.e., "get_weather", to return the climate details accordingly to user input. Proper exception handling is present. 
 
-### To run the agent: 
+### To run the agent, follow the steps: 
 ### 1. Type this command in the terminal of level2 directory
 #### *python weather_mcp.py*
 ### This gets the server up and running, and ready for the client to make calls. 
 ### **Don't close the terminal. Keep it running in the background**
 
-### 2. Open a new terminal in the same directory, and type in the following command:
+### 2. Open a new terminal fn the same directory, and type in the following command:
 #### *python client_agent.py*
 ### This will get the agent running, and you can interact with the bot in the CLI. 
 
