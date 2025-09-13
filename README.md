@@ -14,7 +14,9 @@ sample input: "Tell me about Elephants" , "What is a comet?" , etc
 #### A simple interface to upload PDF files and perform pre-defined actions on them.
 
 #### To run, type in the following command in the terminal of level1 directory
-#### *streamlit run ui_interface.py*
+```terminal
+streamlit run ui_interface.py
+```
 
 #### It should open a localhost live session that can be accessed from a default browser by ctrl clicking the address mentioned in terminal. Test the features available.
 #### I've used the Streamlit library, which is a free, simple python library that help create a working frontend within seconds. 
@@ -31,12 +33,18 @@ sample input: "Tell me about Elephants" , "What is a comet?" , etc
 
 ### To run the agent, follow the steps: 
 ### 1. Type this command in the terminal of level2 directory
-#### *python weather_mcp.py*
+
+```terminal
+python weather_mcp.py
+```
 ### This gets the server up and running, and ready for the client to make calls. 
 ### **Don't close the terminal. Keep it running in the background**
 
 ### 2. Open a new terminal fn the same directory, and type in the following command:
-#### *python client_agent.py*
+```terminal
+python client_agent.py
+```
+
 ### This will get the agent running, and you can interact with the bot in the CLI. 
 
 ### Sample IO: 
